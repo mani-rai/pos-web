@@ -1,0 +1,15 @@
+#cash_register_container {
+  display: flex;
+  height: 100%;
+}
+
+#invocing_container {
+  flex-shrink: 0;
+  border-right: 2px solid #EDEDED;
+  width: 415px;
+}
+
+#product_menu_container {
+  flex-grow: 1;
+  min-width: 0;
+}

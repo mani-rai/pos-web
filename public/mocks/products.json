@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Chiken Momo",
+    "price": 12
+  },
+  {
+    "id": 2,
+    "name": "Chiken Momo",
+    "price": 17
+  },
+  {
+    "id": 3,
+    "name": "Chiken Momo",
+    "price": 15
+  },
+  {
+    "id": 4,
+    "name": "Banana Fritters w/Chocolate Sauce Banana Fritters w/Chocolate Sauce",
+    "price": 123
+  },
+  {
+    "id": 5,
+    "name": "Chiken Momo",
+    "price": 14
+  },
+  {
+    "id": 6,
+    "name": "Chiken Momo",
+    "price": 145
+  },
+  {
+    "id": 7,
+    "name": "Chiken Momo",
+    "price": 12
+  },
+  {
+    "id": 8,
+    "name": "Chiken Momo",
+    "price": 90
+  },
+  {
+    "id": 9,
+    "name": "Chiken Momo",
+    "price": 23
+  }
+]

@@ -1,0 +1,36 @@
+.key {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+}
+
+#keypad_wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 100%;
+}
+
+#keypad_wrapper li:nth-child(4),
+#keypad_wrapper li:nth-child(8),
+#keypad_wrapper li:nth-child(16){
+  border-right: 1px solid #ececec;
+}
+
+#keypad_wrapper li:nth-child(13),
+#keypad_wrapper li:nth-child(14),
+#keypad_wrapper li:nth-child(15),
+#keypad_wrapper li:nth-child(16) {
+  border-bottom: 1px solid #ececec;
+}
+
+.selected_key {
+  background: #3da073;
+  color: white;
+}
+
+.action_key {
+  font-weight: 500;
+}

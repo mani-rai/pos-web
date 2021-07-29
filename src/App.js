@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import CashRegister from './pages/cash-register/CashRegister'
+import { createTheme, ThemeProvider } from '@material-ui/core/styles'
+import blue from '@material-ui/core/colors/blue'
+import teal from '@material-ui/core/colors/teal'
 
-function App() {
+function App () {
+
+  const theme = buildTheme()
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <ThemeProvider theme={theme}>
+      <CashRegister/>
+    </ThemeProvider>
+  )
+
+  function buildTheme () {
+    return createTheme({
+      palette: {
+        primary: blue,
+        secondary: teal,
+      },
+    })
+  }
 }
 
-export default App;
+export default App

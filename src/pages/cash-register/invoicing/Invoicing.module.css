@@ -1,0 +1,79 @@
+#invoicing_wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#product_list_container {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+#invoce_editor_wrapper {
+  flex-shrink: 0;
+  height: 315px;
+  display: flex;
+  flex-direction: column;
+  background: #f5f5f7;
+  border-top: 1px solid #1678C2;
+  padding: 0.313rem 0.125rem 0.125rem;
+}
+
+#invoce_editor_wrapper button {
+  width: 100%;
+  margin-bottom: 0.313rem;
+}
+
+#keypad_container {
+  flex-grow: 1;
+}
+
+.name_price_wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.qty_rate_wrapper {
+  font-size: 1rem;
+}
+
+.product {
+  padding: 6px 8px;
+  cursor: pointer;
+}
+
+#total {
+  font-size: 18px;
+  font-weight: bold;
+  border-top: 2px solid var(--text-color);
+  padding: 7px 20px 0;
+}
+
+#total_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 8px 1rem;
+}
+
+.selected_product {
+  background: aliceblue;
+}
+
+#header_container {
+  height: 3rem;
+  background-color: #5590bf;
+  flex-shrink: 0;
+  border-bottom: 1px solid #7eaacd;
+}
+
+#logo_container {
+  /*background-image: url("/src/assets/images/nd-pos-logo.svg");*/
+  /*background-size: contain;*/
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+  width: 130px;
+  height: 100%;
+  margin-left: 0.5rem;
+}

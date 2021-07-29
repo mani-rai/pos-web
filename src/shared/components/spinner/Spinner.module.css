@@ -1,0 +1,18 @@
+.spinner_wrapper {
+  position: relative;
+}
+
+.bottom {
+  color: #eee;
+}
+
+.top {
+  color: #1a90ff;
+  animationDuration: '550ms';
+  position: absolute;
+  left: 0;
+}
+
+.circle {
+  strokeLinecap: 'round';
+}
