@@ -3,6 +3,7 @@ import Keypad from './../../../shared/components/keypad/Keypad'
 import { useEffect, useRef, useState } from 'react'
 import Button from '@material-ui/core/Button'
 import Spinner from '../../../shared/components/spinner/Spinner'
+import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined'
 
 export default function Invoicing ({ selectedProducts, total }) {
 
@@ -23,6 +24,10 @@ export default function Invoicing ({ selectedProducts, total }) {
         </div>
       </div>
       <div id={styles.product_list_container}>
+        <div id={styles.message_container}>
+          <ShoppingCartOutlinedIcon fontSize={'inherit'} color={'disabled'}/>
+          <span disabled>You cart is empty.</span>
+        </div>
         {selectedProductsElements}
         {selectedProductsElements && selectedProductsElements.length > 0 &&
         <div id={styles.total_wrapper}>

@@ -69,11 +69,25 @@
 }
 
 #logo_container {
-  /*background-image: url("/src/assets/images/nd-pos-logo.svg");*/
+  /*background-image: url("/src/assets/images/pos-logo.svg");*/
   /*background-size: contain;*/
   /*background-position: center;*/
   /*background-repeat: no-repeat;*/
   width: 130px;
   height: 100%;
   margin-left: 0.5rem;
+}
+
+#message_container {
+  font-size: 5rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#message_container > span {
+  font-size: 1.3rem;
+  color: #bdbdbd;
 }
