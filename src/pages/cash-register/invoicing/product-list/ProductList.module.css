@@ -1,0 +1,50 @@
+#product_list_wrapper {
+  height: 100%;
+}
+
+#message_container {
+  font-size: 5rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#message_container > span {
+  font-size: 1.3rem;
+  color: #bdbdbd;
+}
+
+#total_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 8px 1rem;
+}
+
+.selected_product {
+  background: aliceblue;
+}
+
+.name_price_wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.qty_rate_wrapper {
+  font-size: 1rem;
+}
+
+.product {
+  padding: 6px 8px;
+  cursor: pointer;
+}
+
+#total {
+  font-size: 18px;
+  font-weight: bold;
+  border-top: 2px solid var(--text-color);
+  padding: 7px 20px 0;
+}
